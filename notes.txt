@@ -1,0 +1,25 @@
+DevOps Notes
+
+1. Version Control
+- Git is used to track changes in code.
+- GitHub is a remote repository hosting platform.
+
+2. Basic Git Commands
+- git init → initialize repository
+- git add . → stage changes
+- git commit -m "message" → save changes
+- git push → upload to remote repo
+
+3. CI/CD
+- Continuous Integration (CI): Automatically builds and tests code.
+- Continuous Deployment (CD): Automatically deploys code.
+
+4. GitHub Actions
+- Used to automate workflows.
+- YAML file stored in .github/workflows/
+- Example: run tests on every push
+
+5. Best Practices
+- Never commit secrets (tokens, passwords)
+- Use .gitignore for sensitive files
+- Write clear commit messages
